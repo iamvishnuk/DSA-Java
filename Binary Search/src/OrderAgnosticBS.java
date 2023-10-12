@@ -10,7 +10,7 @@ public class OrderAgnosticBS {
         int start = 0;
         int end = arr.length - 1;
 
-        // fint wheather the array is sorted in ascending or descending order
+        // find whether the array is sorted in ascending or descending order
         boolean isAsc = arr[start] < arr[end];
 
         while(start <= end) {
