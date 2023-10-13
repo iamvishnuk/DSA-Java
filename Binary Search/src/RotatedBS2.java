@@ -1,6 +1,6 @@
 public class RotatedBS2 {
     public static void main(String[] args) {
-        int[] arr = {2,5,6,0,0,1,2};
+        int[] arr = {1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1};
         int target = 4;
         System.out.println(search(arr, target));
 
